@@ -80,24 +80,25 @@ textarea{
   position: relative;
   letter-spacing: 1px;
   padding-left: -1px;
+  box-shadow: 1px 1px 3px 1px #bbb;
 }
 #submit:active{
   left: 1px;
   top: 1px;
-  box-shadow: 1px 1px 3px 1px #aaa;
+  box-shadow: 1px 1px 3px 1px #999;
 }
-  #tip{
-    display: block;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    background: #fff;
-    text-align: center;
-    box-shadow: 1px 1px 3px 1px #aaa;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -20px;
-  }
+#tip{
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 3px 1px #aaa;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -20px;
+}
 </style>
